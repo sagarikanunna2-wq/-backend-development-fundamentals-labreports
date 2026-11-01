@@ -1,0 +1,16 @@
+{
+  "name": "bdf-lab-01",
+  "version": "1.0.0",
+  "description": "Backend Development Fundamentals - Lab 1: Node.js and Express Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "N. Venkat Sagarika",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
