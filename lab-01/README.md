@@ -6,6 +6,10 @@
 - **Registration Number:** 252U1R5115
 - **Section:** AIDE - 2B
 
+## Live Deployment
+
+https://bdf-lab-01-zszv.onrender.com
+
 ## Lab Objective
 
 To create a Node.js server using Express.js, implement different GET routes, handle invalid routes using a 404 response, and log HTTP request methods, URLs, and status codes.
@@ -36,13 +40,13 @@ Execute the following command:
 node index.js
 ```
 
-The server will start at:
+The server will start locally at:
 
 http://localhost:3000
 
 ### Environment Variables
 
-The server uses port 3000, which is defined directly in index.js. No additional environment variables are required.
+The server uses `process.env.PORT` with port `3000` as the default value. No additional environment variables are required.
 
 ## API Endpoints
 
@@ -55,18 +59,14 @@ The server uses port 3000, which is defined directly in index.js. No additional 
 
 ## Problems Faced and Solutions
 
-1. **Port Configuration:** Configured the Express server to run on port 3000.
+1. **Port Configuration:** Configured the Express server to use the deployment platform's port, with 3000 as the local default.
 2. **Route Testing:** Tested different GET endpoints using the browser.
 3. **404 Error Handling:** Implemented middleware to return a 404 response for undefined routes.
 4. **Request Logging:** Added middleware to log HTTP methods, URLs, and response status codes.
 
 ## Notes
 
-All routes were tested successfully using the browser, and the server returned the expected responses.
-
-## Live Deployment
-
-Not deployed. The project was tested locally using Node.js and Express.js at http://localhost:3000.
+All required routes were tested successfully using the browser and the deployed Render URL. The server returned the expected responses and status codes.
 
 ## Screenshots
 
