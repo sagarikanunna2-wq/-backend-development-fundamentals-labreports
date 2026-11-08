@@ -11,7 +11,11 @@
 
 ## Live Deployment
 
-Not deployed. The REST API was executed locally and tested using Postman.
+The Bookstore REST API is successfully deployed on Render.
+
+**Live URL:** https://bdf-lab-03-bookstore-api.onrender.com
+
+**Test Endpoint:** https://bdf-lab-03-bookstore-api.onrender.com/books/
 
 ## Objective
 
