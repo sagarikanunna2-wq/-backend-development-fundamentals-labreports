@@ -130,4 +130,16 @@ app.post("/login/", async (request, response) => {
     }
 });
 
+// Home Route
+app.get("/", (request, response) => {
+    response.send({
+        message: "Lab 4 - User Registration and Login API",
+        endpoints: {
+            register: "POST /register/",
+            login: "POST /login/"
+        },
+        status: "Server is running successfully"
+    });
+});
+
 initializeDBAndServer();
